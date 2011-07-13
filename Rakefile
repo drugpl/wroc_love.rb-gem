@@ -15,7 +15,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "wroc_love"
-  gem.homepage = "http://github.com/pithyless/wroc_love.rb"
+  gem.homepage = "http://github.com/drugpl/wroc_love.rb"
   gem.license = "MIT"
   gem.summary = "wroc_love.rb Conference 2012"
   gem.description = "Your personal genie for all your wroc_love.rb 2012 needs!"
