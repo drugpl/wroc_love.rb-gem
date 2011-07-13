@@ -32,7 +32,7 @@ when nil
 when "web"
   Launchy.open("http://wrocloverb.com")
 when "map"
-  Launchy.open("http://maps.google.com/maps?q=Wroclaw,+Poland&ll=48.283193,14.545898&spn=23.043139,56.90918&sll=47.100045,-22.412109&sspn=49.743722,113.818359&z=5")
+  Launchy.open("http://maps.google.pl/maps/ms?msid=209535756088857600233.0004a7f42b9530ef04382&msa=0&ll=49.05227,12.65625&spn=11.971802,28.45459")
 when "follow"
   Launchy.open("http://twitter.com/wrocloverb")
 when "tweet"
