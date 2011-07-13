@@ -1,4 +1,5 @@
-= wroc_love.rb
+wroc_love.rb
+============
 
 wroc_love.rb is a fresh Ruby-oriented conference in Wrocław, Poland.
 
@@ -7,7 +8,8 @@ Get ready for 10-11 March 2012.
 http://wrocloverb.com
 
 
-== wroc_love.rb (the gem)
+wroc_love.rb (the gem)
+----------------------
 
 Your personal genie for all your wroc_love.rb 2012 needs!
 
@@ -28,7 +30,8 @@ Your personal genie for all your wroc_love.rb 2012 needs!
       tweet     Spread the word!
 
 
-== Contributing to wroc_love.rb
+Contributing to wroc_love.rb
+----------------------------
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to invite speakers and request features
