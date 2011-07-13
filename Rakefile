@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "wroc-love"
-  gem.homepage = "http://github.com/pithyless/wroc-love"
+  gem.name = "wroc_love"
+  gem.homepage = "http://github.com/pithyless/wroc_love.rb"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "wroc_love.rb Conference 2012"
+  gem.description = "Your personal genie for all your wroc_love.rb 2012 needs!"
   gem.email = "wojtowicz.norbert@gmail.com"
   gem.authors = ["Norbert Wojtowicz"]
   # dependencies defined in Gemfile
@@ -32,14 +32,6 @@ Rake::TestTask.new(:test) do |test|
   test.verbose = true
 end
 
-require 'rcov/rcovtask'
-Rcov::RcovTask.new do |test|
-  test.libs << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-  test.rcov_opts << '--exclude "gems/*"'
-end
-
 task :default => :test
 
 require 'rake/rdoctask'
@@ -47,7 +39,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "wroc-love #{version}"
+  rdoc.title = "wroc_love #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

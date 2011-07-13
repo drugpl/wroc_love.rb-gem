@@ -12,7 +12,7 @@ require 'shoulda'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'wroc-love'
+require 'wroc_love'
 
 class Test::Unit::TestCase
 end
