@@ -19,8 +19,8 @@ Jeweler::Tasks.new do |gem|
   gem.license = "MIT"
   gem.summary = "wroc_love.rb Conference 2012"
   gem.description = "Your personal genie for all your wroc_love.rb 2012 needs!"
-  gem.email = "wojtowicz.norbert@gmail.com"
-  gem.authors = ["Norbert Wojtowicz"]
+  gem.email = ["wojtowicz.norbert@gmail.com", "robert.pankowecki@gmail.com"]
+  gem.authors = ["Norbert Wojtowicz", "Robert Pankowecki"]
   gem.executables << 'wroc_love.rb'
   # dependencies defined in Gemfile
 end
