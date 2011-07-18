@@ -28,6 +28,7 @@ Your personal genie for all your wroc_love.rb 2012 needs!
       map       Launch Google map
       follow    Follow us on Twitter
       tweet     Spread the word!
+      flights   Check flights to Wrocław from airports near you!
 
 
 Contributing to wroc_love.rb
