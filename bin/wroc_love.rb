@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # encoding: UTF-8
 
+$LOAD_PATH.delete(File.dirname(__FILE__))
 require 'launchy'
 require 'wroc_love'
 
