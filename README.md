@@ -30,6 +30,11 @@ Your personal genie for all your wroc_love.rb 2012 needs!
       tweet     Spread the word!
       flights   Check flights to Wrocław from airports near you!
 
+## Installation
+
+```ruby
+gem install wroc_love
+```
 
 Contributing to wroc_love.rb
 ----------------------------
