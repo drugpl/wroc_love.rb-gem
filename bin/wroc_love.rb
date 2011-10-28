@@ -32,7 +32,7 @@ end
 cmd = ARGV.shift
 
 case cmd
-when
+when nil
   banner
 when "speakers"
   puts "@apotonick     (Nick Sutterer)"
