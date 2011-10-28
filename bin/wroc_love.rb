@@ -25,13 +25,14 @@ Commands:
   follow    Follow us on Twitter
   tweet     Spread the word!
   flights   Check flights to Wrocław from airports near you!
+  speakers  Y U NO REMEMBER OUR SPEAKERS ?
   EOF
 end
 
 cmd = ARGV.shift
 
 case cmd
-when nil
+when
   banner
 when "speakers"
   puts "@apotonick     (Nick Sutterer)"
