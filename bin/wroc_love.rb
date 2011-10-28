@@ -33,6 +33,12 @@ cmd = ARGV.shift
 case cmd
 when nil
   banner
+when "speakers"
+  puts "@apotonick     (Nick Sutterer)"
+  puts "@aslakhellesoy (Aslak Hellesøy)"
+  puts "@drogus        (Piotr Sarnacki)"
+  puts "you ??         (http://c4p.wrocloverb.com)"
+  puts
 when "web"
   Launchy.open("http://wrocloverb.com")
 when "map"
