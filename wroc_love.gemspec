@@ -5,7 +5,7 @@ require "wroc_love/version"
 Gem::Specification.new do |s|
   s.name        = "wroc_love"
   s.version     = WrocLove::VERSION
-  s.date        = "2011-07-18"
+  s.date        = "2011-10-29"
   s.authors     = ["Norbert Wojtowicz", "Robert Pankowecki"]
   s.email       = ["wojtowicz.norbert@gmail.com", "robert.pankowecki@gmail.com"]
   s.homepage    = "http://github.com/drugpl/wroc_love.rb"
